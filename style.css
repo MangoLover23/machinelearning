@@ -1,4 +1,47 @@
-html, body {
-  height: 100%;
-  width: 100%;
+body{
+  margin:0;
+  background-color: lightcyan;
+  
+}
+
+h1{
+  padding: 10px;
+  font-size: 80px;
+  text-align:center;
+}
+
+.topNav{
+  background-color:lightblue;
+  display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  padding:10px 5px;
+}
+
+.topNav a{
+  text-align:center;
+  text-decoration:none;
+  flex-grow:1;
+  margin:5px;
+  padding:10px 5px;
+  background-color:lightskyblue;
+}
+
+.active{
+    color:lightblue;
+  }
+.homep{
+  padding: 15px;
+  width: 150ch;
+  margin: 10px;
+  background-color: white;
+  font-size: 23px;
+}
+
+.vid{
+  padding: 200px;
+}
+.content{
+  width: 150ch;
 }
